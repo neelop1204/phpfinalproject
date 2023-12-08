@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body{
+    margin-top: -10vh;
+}
+body, h1, h2, h3, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styling */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a modern sans-serif font */
+    background: linear-gradient(45deg, #3498db, #2ecc71); /* Gradient background with blue and green */
+    color: #fff; /* Text color */
+  }
+  
+  .container {
+    max-width: 400px; /* Adjust as needed */
+    margin-top: 50px;
+  }
+  
+  /* Card styling */
+  .card {
+    border: none; /* Remove border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Form styling */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Input styling */
+  .form-control {
+    border: none; /* Remove border */
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #2ecc71; /* Green color */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #27ae60; /* Darker green on hover */
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  /* Responsive margin utilities */
+  .mt-2 {
+    margin-top: 0.5rem;
+  }
+  
+  /* Footer styling */
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: #34495e; /* Darker blue background for the footer */
+    color: #fff;
+  }
+  
+  /* Iframe container styling */
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio for iframes */
+    position: relative;
+  }
+  
+  iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  

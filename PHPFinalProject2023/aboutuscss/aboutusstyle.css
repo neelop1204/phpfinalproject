@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wholecontent{
+    display: flex;
+}
+
+.image > img{
+    height: 18%;
+    max-width:999%;
+    margin-top:20px;
+    position: relative;
+
+}
+
+.content{
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.5; 
+}
+.content > h2{
+    line-height: 3;
+}
